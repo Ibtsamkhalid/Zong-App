@@ -1,0 +1,12 @@
+.allslider {
+  overflow: hidden;
+}
+.allslider img {
+  width: 100%;
+}
+@media screen and (max-width: 416px) {
+  .allslider img {
+    height: 200px !important;
+  }
+
+}

@@ -1,0 +1,99 @@
+.corners{
+  overflow: hidden;
+}
+.roundbtn ul{
+  display: flex;
+}
+.roundbtn ul li{
+    display:grid;
+  text-decoration: none;
+  list-style: none;
+  margin-right:3rem;
+  padding-left: 8rem;
+  /* margin-left: 3rem; */
+  margin-top:2rem;
+}
+.roundbtn ul li img{
+    object-fit: cover;
+    border-radius: 50%;
+    border:3px solid #8cc63e;
+}
+
+.roundbtntext{
+   /* margin-top:-2em;
+   margin-left:1rem; */
+   font-family: "Arca Bold", sans-serif;
+   font-size:13px;
+   font-weight: bold;
+   color:#757575;
+  
+}
+
+/*.roundbtntext ul li{
+  text-decoration: none;
+  list-style: none;
+ margin-right: 8rem;
+}
+.roundbtntext ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right:1rem;
+  margin-top: 2.5rem;
+}
+.roundbtntext .b{
+  margin-left:16px;
+}
+
+.roundbtntext .c{
+  margin-left: 26px;
+}
+
+.roundbtntext .d{
+  margin-left:30px;
+}
+
+.roundbtntext .e{
+  margin-left: 35px;
+}
+
+.roundbtntext .g{
+margin-left:35px;
+} */
+
+@media screen and (max-width:768px){
+
+.roundbtn img{
+  width:60px;
+}
+.roundbtn ul li{
+margin-right:0.5rem;
+padding-left: 2rem;
+margin-top:2rem;
+}
+.roundbtntext{
+  font-size:12px;
+}
+
+}
+@media screen and (max-width:415px){ 
+.roundbtn img{
+width:50px;
+}
+.roundbtn ul li{
+   margin-right: -2.8rem;
+   margin-left: 2rem; 
+   width:100%; 
+}
+.roundbtn ul{
+  margin-left: -6rem;
+  width:415px;
+}
+.roundbtn{
+  width: 415px;
+  height: 160px;
+  /* border: 1px solid #c3c3c3; */
+  display: flex;
+  flex-wrap:wrap;
+}
+}

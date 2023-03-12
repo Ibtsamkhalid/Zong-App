@@ -1,0 +1,113 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.leftcontent {
+  width: 20%;
+  text-align: center;
+  margin-top: 19rem;
+  margin-left: 60px;
+}
+.swiper {
+  width: 68%;
+  /* float: right; */
+  /*     */
+  margin-right: 50px;
+  /* height: 30%; */
+}
+.swiper-slide {
+  /* text-align: right; */
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.leftcontent button {
+  background-color: #e40076;
+  font-family: "Arca Bold", sans-serif;
+    font-weight: normal;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.leftcontent > h1 {
+  color: #8cc63e;
+  font-weight: bold;
+}
+.leftcontent p{
+  font-family: "Geogrotesque Rg", sans-serif;
+  font-size: 16px;
+}
+
+.swiper-button-prev:after {
+  color: black;
+  font-size: 26px;
+}
+.swiper-button-next:after {
+  color: black;
+  font-size: 26px;
+}
+.allcardslider {
+  display: flex;
+  margin-top: -9.5rem;
+}
+
+@media screen and (max-width:768px){
+  .allcardslider{
+    display:grid;
+  }
+  .mySwipper{
+    overflow: hidden;
+  }
+  .leftcontent {
+    width: 80%;
+    text-align: center;
+    margin-top: 13rem;
+    /* margin-left: 60px; */
+  }
+  .swiper {
+    width: 100%;
+    margin-top: -19rem;
+    margin-bottom: 25px;
+  }
+  .swiper .sliderspace{
+    padding-left:22rem;
+  }
+  @media screen and (max-width:415px){
+    .swiper{
+      overflow: hidden;
+      width:100%;
+    }
+    .swiper .sliderspace{
+      padding-left:24rem;
+
+    }
+    .leftcontent{
+      margin-left:40px;
+      margin-bottom: 60px;
+    }
+
+  }
+}

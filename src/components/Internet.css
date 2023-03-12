@@ -1,0 +1,76 @@
+.allint{
+    /* background-color: #f4f6f8; */
+    display: flex;
+    margin-top:4rem;
+    background-color:#f4f6f8
+}
+.leftint{
+    width:30%;
+    margin-left:280px;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.leftint h1{
+    color:#8cc63e;
+    font-weight: bold;
+    font-family: "Arca Bold", sans-serif;
+    font-size: 46px;
+}
+
+.leftint p{
+    font-family: "Geogrotesque Rg", sans-serif;
+    
+    font-size: 20px;
+}
+.leftint button{
+    font-family: "Arca Bold", sans-serif;
+    font-weight: normal;
+    background-color: #e40076;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.rightint img{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width:768px){
+    .leftint{
+        width:90%;
+        margin-left:50px;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .leftint h1{
+        font-size: 32px;
+    }
+    
+    .leftint p{
+        font-size: 19px;
+        
+    }
+    .rightint img{
+        width:405px;
+        margin-top: 3rem;
+    }
+    .allsmart{
+        margin-top: -17rem;
+    }
+}
+
+@media screen and (max-width:415px){
+    .allint{
+        display:grid;
+    }
+    .rightint img{
+        margin-top: -50rem;
+    }
+    .leftint{
+        margin-top: 17rem;
+        text-align: center;
+        margin-left: 20px;
+    }
+}

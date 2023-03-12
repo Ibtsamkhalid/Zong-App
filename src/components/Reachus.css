@@ -1,0 +1,110 @@
+.allreach{
+    overflow: hidden;
+}
+
+.ru h1{
+    font-family:"Arca Bold", sans-serif;
+    color:#808285;
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    font-weight: bold;
+text-align: center;
+margin-top:1.5rem;
+}
+
+.simg ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 1.7rem;
+    overflow: hidden;
+    margin-left:4rem;
+}
+
+.simg ul li{
+    margin-left:-7rem;
+    cursor: pointer;
+ }
+.lastitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left:16rem ; */
+    /* margin-top: -20px; */
+}
+.lastitems ul li{
+    color:#808285;
+    list-style: none;
+    text-decoration: none;
+    font-family:"Arca Bold",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left:1rem;
+    cursor: pointer;
+    /* margin-left:-8rem; */
+   
+}
+.lastitems ul{
+    overflow: hidden;
+    display: flex;
+    width:90%;
+    margin-top: 3rem;
+    margin-left: 19.5rem;
+    /* padding-right:-10rem; */
+}
+.lastitems ul li a{
+    color:#808285;
+}
+
+.f{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 11.5px;
+}
+.f .footer2{
+   margin-top:-8px; 
+}
+
+@media screen and (max-width:768px){
+    .lastitems ul{
+        overflow: hidden;
+
+        margin-top: 3rem;
+        margin-left: -4rem;
+        /* padding-right:-10rem; */
+    }   
+    .lastitems ul li{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:415px){
+    .allreach{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+    .simg{
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+        margin-left: -3rem;
+        
+    }
+    .simg img{
+        width:45px;
+    }
+    .lastitems{
+        width:100%;
+        
+    }
+    .lastitems ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .lastitems ul li{
+        width:20%;
+        
+    }
+}

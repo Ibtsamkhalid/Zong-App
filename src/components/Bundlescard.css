@@ -1,0 +1,113 @@
+
+
+.body{  
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%; */
+}
+
+.card{
+    border-radius: 20px;
+    background: #fff;
+    width:330px;
+    height:350px;
+    margin:30px 0;
+}
+.card .card-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+    position: relative;
+    z-index: 100;
+
+}
+
+.card .card-content .top{
+    display:grid;
+    margin-right:50px;
+}
+.card .card-content .top .offer{
+    color:#e40076;
+    font-weight: bold;
+}
+.card .card-content .top .type{
+    color:#2f2f2f;
+    font-family:"Arca Bold", sans-serif ;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.card .card-content .icons{
+    font-size: 49px;
+    
+}
+.card .card-content .icons span{
+   
+     margin-left:8px;
+    margin-right:32px;
+}
+.card .card-content .icondata{
+    display: flex;
+}
+.card .card-content .wifi{
+    display: grid;
+    
+}
+.card .card-content .wifi .wifidata{
+    color:#8cc63e;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card .card-content .wifi .wifitype{
+    font-size: 13px;
+}
+.card .card-content .call{
+    display: grid;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+}
+.card .card-content .calldata{
+    color:#8cc63e;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card .card-content .calltype{
+    font-size: 13px;
+}
+.card .card-content .call1{
+    display: grid;
+}
+.card .card-content .price{
+    position: absolute;
+    display:grid;
+  bottom: -5rem;
+  left: 30px;
+  font-size: 20px;
+  color:#e40076;
+}
+.card .card-content .price .Rs2{
+    color:#2f2f2f;
+    font-size: 12px;
+}
+
+.card .card-content .buttoncard{
+    position: absolute;
+  bottom:-5rem;
+  right: 16px;
+  font-size: 18px;
+}
+
+.card .card-content button{
+    background-color: #e40076;
+    outline: none;
+    border: none;
+    color:#fff;
+    padding:8px 22px;
+    border-radius: 20px;
+    cursor: pointer;
+}
